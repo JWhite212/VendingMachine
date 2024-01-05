@@ -1,6 +1,9 @@
 # VendingMachine
 A vending machine project modelled in Java, aimed at showcasing strong design principles, and clear, well-documented, and thoroughly tested code. The project aimed to demonstrate my understanding of fundamental concepts in object-oriented programming like encapsulation, abstraction, inheritance, and polymorphism.
 
+As part of my program, I implemented JUnit tests, thoroughly exercising all the different possible
+interactions between the machine, users and owners.
+
 The vending machine functionality involves:
 + The machine accepts British pound sterling in the form of coins.
 + The machine contains a variety of drinks and snacks.
