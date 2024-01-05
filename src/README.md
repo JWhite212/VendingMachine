@@ -123,7 +123,7 @@ Provides a range of method implementations to provide user interaction with the 
 
 Class containing the main method of the program to simulate user interaction. Contains a few basic user interaction sequences to test the program functionality.
 
-### [VendingMachineTest.java](VendingMachineTest.java)
+### [VendingMachineTest.java](/test/VendingMachineTest.java)
 
 Class containing all JUnit tests for the Vending Machine. The Class VendingMachineTest contains all tests required to test the
 full functionality of the vending machine and all possible interactions required by the task.
