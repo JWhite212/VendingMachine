@@ -1,9 +1,7 @@
-Username: JW895
-
 Program Description:
 My program uses a state design pattern to simulate the idea of state. The different states are represented through different state classes which implement methods from the State interface. Based on the vending machine’s current state, the methods perform different actions. This allows the user to progress through the purchasing process of the vending machine, with a maintained shared state between each step of the process. The VendingMachine class acts as the context for the state design pattern, providing a centralised class from which, depending on the state, calls upon the specific state’s implementation of the required behaviours of the machine.
 
-AdminModeState.java
+[AdminModeState.java](AdminModeState.java)
 Class for the admin mode state. This is the state of the machine when a user has logged into admin mode.
 From this state the admin can access a range of admin methods to manage the contents of the machine.
 
