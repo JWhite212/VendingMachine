@@ -4,7 +4,7 @@ A vending machine project modelled in Java, aimed at showcasing strong design pr
 As part of my program, I implemented JUnit tests, thoroughly exercising all the different possible
 interactions between the machine, users and owners.
 
-[For in-depth descriptions of the functionality of each class refer to this README](docs/CONTRIBUTING.md)
+[For in-depth descriptions of the functionality of each class refer to this README](src/README.md)
 
 
 The vending machine functionality involves:
