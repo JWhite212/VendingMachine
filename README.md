@@ -1,5 +1,5 @@
 # VendingMachine
-A vending machine project modelled in Java, aimed at showcasing strong design principles, and clear, well-documented, and thoroughly tested code. The project aimed to demonstrate my understanding of fundamental concepts in object-oriented programming like encapsulation, abstraction, inheritance, and polymorphism. 
+A vending machine project modelled in Java, aimed at showcasing strong design principles, and clear, well-documented, and thoroughly tested code. The project aimed to demonstrate my understanding of fundamental concepts in object-oriented programming like ***encapsulation, abstraction, inheritance, and polymorphism***. 
 
 
 ### State Design Pattern
@@ -8,7 +8,7 @@ The vending machine project uses the ***State Design Pattern***.
 This was implemented to allow for a notion of state.
 The main idea of the State pattern is to allow the object to change its behaviour based on its situation, without changing its class implementation.
 
-Instead of all logic for each of the states being spread across all methods. We can encapsulate the logic in dedicated classes, and apply the Single Responsibility and Open/Closed Principle. Resulting in cleaner and more maintainable code.
+Instead of all logic for each of the states being spread across all methods. We can encapsulate the logic in dedicated classes, and apply the ***Single Responsibility and Open/Closed Principle***. Resulting in cleaner and more maintainable code.
 For example, after a user has deposited several coins, but has not yet made a purchase, the state
 of the machine accounts for the balance deposited but not spent. After a
 purchase does happen, the machine state is updated to keep track
