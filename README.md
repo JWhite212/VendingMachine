@@ -1,6 +1,8 @@
 # VendingMachine
 A vending machine project modelled in Java, aimed at showcasing strong design principles, and clear, well-documented, and thoroughly tested code. The project aimed to demonstrate my understanding of fundamental concepts in object-oriented programming like encapsulation, abstraction, inheritance, and polymorphism. 
 
+
+### State Design Pattern
 The vending machine project uses the ***State Design Pattern***. 
 
 This was implemented to allow for a notion of state.
@@ -12,11 +14,14 @@ of the machine accounts for the balance deposited but not spent. After a
 purchase does happen, the machine state is updated to keep track
 of the lost item and accumulated money.
 
+### Testing
+
 As part of my program, I implemented [JUnit Tests](test/VendingMachineTest.java), thoroughly exercising all the different possible
 interactions between the machine, users and owners. This ensured that the program ran as intended and had all edge cases covered.
 
-[For in-depth descriptions of the functionality of each class refer to this README](src/README.md)
+### Functionality
 
+[For in-depth descriptions of each class's functionality, refer to this document](src/README.md)
 
 The vending machine functionality involves:
 + The machine accepts British pound sterling in the form of coins.
